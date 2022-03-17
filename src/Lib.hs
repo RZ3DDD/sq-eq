@@ -3,12 +3,12 @@ module Lib
     evenTest,
   )
 where
-  -- | Некоторая функция печатающая "Здравствуй Мир!"
+  -- | Function print  "Здравствуй Мир!"
   someFunc :: IO ()
   someFunc = putStrLn "Здравствуй Мир!"
 
-  -- | Тестовая функция из задачи 2.3
-  -- | n - целое число
+  -- | Function realized test 2.3
+  -- | n - integer number
   evenTest :: Integral a => a -> a
   evenTest n =
     if even n
